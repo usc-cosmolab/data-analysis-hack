@@ -10,9 +10,11 @@ Each group should work together to do the following, for one (or both) of the tw
 5. Implement a likelhood function according to this generative model.
 6. Define the prior probability distribution function for your parameter space.
 7. Overplot your data with N versions of your physical model evaluated with N samples from your prior. 
-8. Define a posterior probability function and generate samples according to an MCMC package of your choice.
-9. Visualize the distribution and correlations of your posterior samples.
-10. Overplot your data with N versions of your physical model evaluated with N samples from your posterior.
+8. Implement a posterior probability function.
+9. Find the values of your model parameters that maximize the posterior probability, and make a model/data plot using those parameters.
+10. Generate samples from your posterior according to an MCMC package of your choice.
+11. Visualize the distribution and correlations of your posterior samples.
+12. Overplot your data with N versions of your physical model evaluated with N samples from your posterior.
 
 Some of the above steps should be encapsulated into the following functions you should implement, in a submodule named according to your group, which you should submit to this repository via a pull request, such that anyone could execute the following code from the top level of the repo:
 
@@ -24,6 +26,8 @@ analysis.plot_data()
 analysis.plot_model_exploration()
 
 analysis.plot_model_prior_samples(N=25)
+
+analysis.plot_model_max_posterior()
 
 samples = analysis.sample_posterior()
 
