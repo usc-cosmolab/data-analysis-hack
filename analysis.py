@@ -7,6 +7,9 @@ def plot_model_exploration():
 def plot_model_prior_samples(N):
     ...
 
+def plot_model_maximum_posterior():
+    ...
+    
 def sample_posterior():
     samples = ...
     return samples
