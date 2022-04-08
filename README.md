@@ -1,7 +1,7 @@
 # data-analysis-hack
 Exercise in data analysis for CosmoLab
 
-Each group should work together to do the following, for one (or both) of the two datasets.  Some of these steps have associate functions that should be implemented, as indicated.
+Each group should work together to do the following, for one (or both) of the two datasets.  Some of these steps have specific associated functions that should be implemented, as indicated below; other steps are more open-ended.
 
 1. Load & visualize the data.
 2. Come up with a parameterized physical analytic model that could describe the data in the absence of uncertainty.
