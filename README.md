@@ -3,7 +3,7 @@ Exercise in data analysis for CosmoLab
 
 Goals for this excercise:
 * Practice programming & organizing code
-* Practice using git & github
+* Practice collaborating using git & github
 * Leran about (or gain more understanding about) probabilistic modeling
 
 Each group should work together to do the following, for one (or both) of the two datasets.  Some of these steps have specific associated functions that should be implemented, as indicated below; other steps are more open-ended.
